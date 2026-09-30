@@ -4,7 +4,7 @@
   "location": "Boston, MA",
   "links": [
     {
-      "label": "Explore my work",
+      "label": "Developer",
       "url": "https://www.mxjxn.com",
       "description": "www.mxjxn.com",
       "enabled": true,
@@ -18,9 +18,28 @@
       "newTab": false
     },
     {
-      "label": "Get in touch",
-      "url": "mailto:mxjxn.art@gmail.com",
-      "description": "mxjxn.art@gmail.com",
+      "label": "Cryptoart Auctionhouse",
+      "url": "https://cryptoart.social",
+      "enabled": true,
+      "newTab": false
+    },
+    {
+      "label": "X Profile",
+      "url": "https://x.com/mxjxn",
+      "description": "@mxjxn",
+      "enabled": true,
+      "newTab": true
+    },
+    {
+      "label": "Farcaster Profile",
+      "url": "https://farcaster.xyz/mxjxn",
+      "description": "@mxjxn",
+      "enabled": true,
+      "newTab": false
+    },
+    {
+      "label": "Telegram",
+      "url": "https://t.me/maxjackson",
       "enabled": true,
       "newTab": false
     }
