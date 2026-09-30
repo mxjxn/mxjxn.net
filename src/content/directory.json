@@ -1,0 +1,28 @@
+{
+  "name": "Max Jackson",
+  "description": "Developer / Artist / Musician",
+  "location": "Boston, MA",
+  "links": [
+    {
+      "label": "Explore my work",
+      "url": "https://www.mxjxn.com",
+      "description": "www.mxjxn.com",
+      "enabled": true,
+      "newTab": false
+    },
+    {
+      "label": "Art & experiments",
+      "url": "https://mxjxn.art",
+      "description": "mxjxn.art",
+      "enabled": true,
+      "newTab": false
+    },
+    {
+      "label": "Get in touch",
+      "url": "mailto:mxjxn.art@gmail.com",
+      "description": "mxjxn.art@gmail.com",
+      "enabled": true,
+      "newTab": false
+    }
+  ]
+}

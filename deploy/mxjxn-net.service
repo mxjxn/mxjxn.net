@@ -1,0 +1,21 @@
+[Unit]
+Description=mxjxn.net directory and Keystatic
+After=network.target
+
+[Service]
+Type=simple
+# Set an existing dedicated service user before installing this unit.
+User=mxjxn-net
+WorkingDirectory=/var/www/mxjxn.net
+EnvironmentFile=/etc/mxjxn-net.env
+Environment=HOST=127.0.0.1
+Environment=PORT=4331
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node dist/server/entry.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
